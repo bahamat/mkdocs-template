@@ -1,0 +1,20 @@
+{
+  "name": "mkdocs-template",
+  "version": "1.0.0",
+  "description": "Joyent mkdocs Template",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joyent/mkdocs-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joyent/mkdocs-template/issues"
+  },
+  "homepage": "https://github.com/joyent/mkdocs-template#readme",
+  "dependencies": {
+    "markdownlint-cli": "^0.23.2",
+    "yamljs": "^0.3.0"
+  }
+}

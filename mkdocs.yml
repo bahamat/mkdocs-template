@@ -1,0 +1,30 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at https://mozilla.org/MPL/2.0/.
+
+site_name: 'Joyent SRE/Devops Docs'
+repo_name: 'joyent/opsdoc'
+repo_url: 'https://github.com/joyent/opsdoc'
+edit_uri: '/joyent/opsdoc/edit/master/docs/'
+
+theme:
+    name: material
+    palette:
+        primary: blue grey
+        accent: deep orange
+    language: en
+    font:
+        text: Open Sans
+        code: Open Mono
+    logo: assets/img/joyent-logo.png
+    feature:
+        tabs: false
+    include_search_page: true
+    search_index_only: false
+
+markdown_extensions:
+    - toc:
+        permalink: true
+
+nav:
+    - 'Home': 'index.md'
